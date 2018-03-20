@@ -5,27 +5,15 @@ import customerbase.Customer;
 public class CustomerDriver {
 
 	public static void main(String[] args) {
-		// Create the Employee class to support the 
+		// Create the Customer class to support the
 		// methods used below.
-		Customer customer = new Customer("Tanya", "West");
-		
-		// should print out the following:
-		// Tanya West
-		System.out.println(customer);
+		Customer customer = new Customer("firstName", "lastName", "emailAddress");
 
-		customer.setFirstName("Fred");
-		customer.setLastName("Smith");
-		
-		// should prompt for a PIN entry and set it
-		customer.setPin();
-		int number = 2;
-		if (customer.getPin() < 1000) {
-			System.out.println("PIN must be at least 4 characters");
-			System.out.println(number);
-		}
-		else if (true) {
-			System.out.println("meets PIN policy");
-		}
+		// should prompt for first name and set it
+		customer.setFirstName("Dale");
+		// should prompt for last name and set it
+		customer.setLastName("Yon");
+		// should prompt for email address and set it
+		customer.setEmailAddress("dale.yon@zf.com");
 	}
-
 }

@@ -9,11 +9,13 @@ public class CustomerDriver {
 		// methods used below.
 		Customer customer = new Customer("firstName", "lastName", "emailAddress");
 
-		// should prompt for first name and set it
+		//  first name and set it
 		customer.setFirstName("Dale");
-		// should prompt for last name and set it
+		// last name and set it
 		customer.setLastName("Yon");
-		// should prompt for email address and set it
+		// email address and set it
 		customer.setEmailAddress("dale.yon@zf.com");
+		
+		// Prior to Stage 3 of Project, each of the above will prompt and set
 	}
 }

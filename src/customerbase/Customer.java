@@ -17,7 +17,7 @@ public class Customer {
 
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
-		System.out.println("What is your first name: " + firstName);
+		
 	}
 
 	public String getLastName() {
@@ -26,7 +26,7 @@ public class Customer {
 
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
-		System.out.println("What is your last name: " + lastName);
+		
 	}
 
 	public String getEmailAddress() {
@@ -35,7 +35,7 @@ public class Customer {
 
 	public void setEmailAddress(String emailAddress) {
 		this.emailAddress = emailAddress;
-		System.out.println("What is your email address: " + emailAddress);
+		
 	}
 
 	public String toString() {

@@ -1,13 +1,13 @@
 package cartitems;
 
-public class Shirt {
+public class Shirts {
 	private int id;
 	private String name;
 	private double cost;
 	private int quantity;
 	private double tax;
 
-	public Shirt(int itemID, String itemName, double itemCost, int itemQuantity, double itemTax) {
+	public Shirts(int itemID, String itemName, double itemCost, int itemQuantity, double itemTax) {
 		setId(itemID);
 		setName(itemName);
 		setCost(itemCost);

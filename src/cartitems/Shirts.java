@@ -5,13 +5,12 @@ public class Shirts {
 	private String name;
 	private double cost;
 	private int quantity;
-	private double tax;
 
-	public Shirts(int itemID, String itemName, double itemCost, int itemQuantity, double itemTax) {
-		setId(itemID);
-		setName(itemName);
-		setCost(itemCost);
-		setQuantity(itemQuantity);
+	public Shirts(int itemID, String itemName, double itemCost, int itemQuantity) {
+		this.id = itemID;
+		this.name = itemName;
+		this.cost = itemCost;
+		this.quantity = itemQuantity;
 	}
 
 	public int getId() {
@@ -46,12 +45,8 @@ public class Shirts {
 		this.quantity = quantity;
 	}
 
-	public double getTax() {
-		return tax;
-	}
+	public String toString() {
+		return id + " " + name + " " + cost + " " + quantity;
 
-	public void setTax(double tax) {
-		this.tax = tax;
 	}
-
 }

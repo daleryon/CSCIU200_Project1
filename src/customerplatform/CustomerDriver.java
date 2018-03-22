@@ -1,6 +1,7 @@
 package customerplatform;
 
 import customerbase.Customer;
+import cartitems.Products;
 
 public class CustomerDriver {
 
@@ -21,5 +22,9 @@ public class CustomerDriver {
 		customer.setEmailAddress("dale.yon@zf.com");
 		System.out.println("What is your email address: " + emailAddress);
 
+		// Beginning of Cart Items
+		// Had to scrap a lot. In the end, I will possibly use Product class only
+
 	}
+
 }

@@ -8,7 +8,7 @@ public class CustomerDriver {
 		String firstName = "Dale";
 		String lastName = "Yon";
 		String emailAddress = "dale.yon@zf.com";
-		
+
 		Customer customer = new Customer(firstName, lastName, emailAddress);
 
 		// first name and set it
